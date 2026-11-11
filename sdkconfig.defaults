@@ -1,0 +1,4 @@
+# Enable IPv4 forwarding and network address translation for AP clients.
+CONFIG_LWIP_IP_FORWARD=y
+CONFIG_LWIP_IPV4_NAPT=y
+CONFIG_LWIP_IPV4_NAPT_PORTMAP=y
